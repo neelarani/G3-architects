@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.work-sans-font {
+  font-family: 'Work Sans', sans-serif;
+}
+
+/* shared styles */
+.display-flex {
+  display: flex;
+}
+
+.btn-primary {
+  background-color: #ff900e;
+  color: white;
+  padding: 20px 25px;
+  font-weight: 1.25rem;
+  font-size: 600;
+  border-radius: 8px;
+  border: none;
+}
+
+/* dark 02 */
+.text-gray {
+  color: #424242;
+}
+/* dark 03 */
+.text-light-gray {
+  color: #727272;
+}
+.bg-light {
+  background-color: rgba(255, 144, 14, 0.1);
+}
+
+/* header styles */
+header {
+  max-width: 1440px;
+  width: auto;
+}
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem;
+}
+.brand {
+  font-weight: 700;
+  font-size: 3rem;
+}
+.nav-item {
+  list-style: none;
+  margin-right: 30px;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navbar,
+.banner {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* banner related styles */
+.banner {
+  background: rgba(255, 144, 14, 0.1);
+  padding: 5rem;
+  max-width: 100%;
+  height: auto;
+}
+.banner-content {
+  max-width: 850px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+.banner-title {
+  font-weight: 700;
+  font-size: 4rem;
+}
+.banner-description {
+  padding-bottom: 1rem;
+}
+
+.banner-image {
+  width: 100%;
+}
+
+/* Features section style starts here */
+.features {
+  max-width: 100%;
+  height: auto;
+}
+
+.features-container {
+  width: 80%;
+  height: auto;
+  display: flex;
+  margin: 0 auto;
+  padding: 3rem;
+}
+
+.features-images {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  gap: 1rem;
+}
+
+.features-images img {
+  width: 15rem;
+  height: auto;
+}
+
+.fetures-content {
+  padding-left: 5rem;
+}
+
+.fetures-content p {
+  padding-bottom: 1rem;
+}
+/* Features section style ends here */
+
+/* Features details section style starts here  */
+.features-details-container {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+  padding-top: 2rem;
+}
+
+.features-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.features-text {
+  width: 40%;
+  padding-bottom: 2rem;
+}
+
+.features-details-image img {
+  width: 28rem;
+  height: 36rem;
+  position: relative;
+}
+.details {
+  padding-bottom: 2rem;
+}
+
+.features-details-container .card {
+  width: 10rem;
+  height: 5rem;
+  background: rgb(255, 144, 14);
+  border-radius: 8px;
+  left: 30rem;
+  top: 33rem;
+  position: absolute;
+  z-index: 1;
+  color: rgb(255, 255, 255);
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.2rem;
+}
+/* Features details section style ends here  */
+/* responsive media query */
