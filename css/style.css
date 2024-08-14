@@ -112,7 +112,7 @@ header {
 }
 
 .features-images img {
-  width: 15rem;
+  width: 12rem;
   height: auto;
 }
 
@@ -159,7 +159,7 @@ header {
   background: rgb(255, 144, 14);
   border-radius: 8px;
   left: 30rem;
-  top: 33rem;
+  top: 35rem;
   position: absolute;
   z-index: 1;
   color: rgb(255, 255, 255);
